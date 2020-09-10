@@ -1,6 +1,6 @@
-{%extends 'base.html'%}
-
+{% extends 'base.html' %}
 {% load static %}
+
 
 {% block content %}
 <div class="container">
@@ -8,6 +8,10 @@
 </div>
 
 
-<script src="{% static "main_site/testscript.js" %}"></script>
 
+
+{% endblock %}
+
+{% block script %}
+<script src="{% static "/main_site/graphics.js" %}"></script>
 {% endblock %}
