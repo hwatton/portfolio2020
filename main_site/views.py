@@ -9,3 +9,6 @@ def pagetwo(request):
 
 def about(request):
     return render(request, 'about.html', {})
+
+def graphics(request):
+    return render(request, 'graphics.html', {})
