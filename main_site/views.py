@@ -6,3 +6,6 @@ def home(request):
 
 def pagetwo(request):
     return render(request, 'pagetwo.html', {})
+
+def about(request):
+    return render(request, 'about.html', {})
