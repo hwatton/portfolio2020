@@ -1,0 +1,13 @@
+.centreHolder {
+  text-align: center;
+}
+
+.holder {
+  display: flex;
+  align-items: center;
+    text-align: center;
+}
+
+.leftBar {
+  width: 50px;
+}

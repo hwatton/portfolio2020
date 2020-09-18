@@ -1,0 +1,10 @@
+
+   body { background-color: #00292a !important;
+     color: #41e7a9;} /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+
+
+/* not working */
+/*
+look at pip installing bootstrap
+and for that matter, some other django apps
+*/
